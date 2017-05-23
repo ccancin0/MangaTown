@@ -1,47 +1,201 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>MangaTown - Read Free English Manga Online!</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <a class="logo" href="#"></a>
-        <nav>
-          <ul class="navbar">
-            <li><a href="#">Latest Releases</a></li>
-            <li><a href="#">Hot Manga</a></li>
-            <li><a href="#">Manga Directory</a></li>
-            <li><a href="#">Completed Manga</a></li>
-            <li><a href="#">Manga Lists</a></li>
-            <li><a href="#">Partner Manhua<i class="new"></i></a></li>
-            <li><a href="#">ACG Topics<i class="orz"></i></a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="slider">
-        <a class="prevBtn" href="#"></a>
-        <ul>
-          <li class="image1 current">
-            <div class="context">
-              <p>New Chapter - The Hanged Man</p>
-              <h2>Servamp</h2>
-            </div>
-            <div class="img-container">
-              <a href="#"><img src="./img/anime1.jpg"></a>
-            </div>
-          </li>
-          <li class="image2"><a href="#"><img src="./img/anime2.jpg"></a></li>
-          <li class="image3"><a href="#"><img src="./img/anime3.jpg"></a></li>
-          <li class="image4"><a href="#"><img src="./img/anime4.jpg"></a></li>
-        </ul>
-      </div>
-    </header>
-  </body>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-  <script src="js/main.js"></script>
+<head>
+  <meta charset="utf-8">
+  <title>MangaTown - Read Free English Manga Online!</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a class="logo" href="#"></a>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#">Latest Releases</a></li>
+          <li><a href="#">Hot Manga</a></li>
+          <li><a href="#">Manga Directory</a></li>
+          <li><a href="#">Completed Manga</a></li>
+          <li><a href="#">Manga Lists</a></li>
+          <li><a href="#">Partner Manhua<i class="new"></i></a></li>
+          <li><a href="#">ACG Topics<i class="orz"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="slideShow">
+      <ul>
+        <li class="image1 current">
+          <div class="context">
+            <p>New Chapter - The Hanged Man</p>
+            <h2>Servamp</h2>
+            <div class="button">
+              <a href="#">Read New Chapter</a>
+            </div>
+          </div>
+          <div class="img-container">
+            <a href="#"><img src="./img/anime1.jpg"></a>
+          </div>
+        </li>
+        <li class="image2">
+          <div class="context">
+            <p>Is there a chance to experience youth once again?</p>
+            <h2>ReLIFE</h2>
+            <div class="button">
+              <a href="#">Read New Chapter</a>
+            </div>
+          </div>
+          <div class="img-container">
+            <a href="#"><img src="./img/anime2.jpg"></a>
+          </div>
+        </li>
+        <li class="image3">
+          <div class="context2">
+            <p>The second year has started!</p>
+            <h2>Infinite Stratos</h2>
+            <div class="button">
+              <a href="#">Read New Chapter</a>
+            </div>
+          </div>
+          <div class="img-container2">
+            <a href="#"><img src="./img/anime3.jpg"></a>
+          </div>
+        </li>
+        <li class="image4">
+          <div class="context">
+            <p>The story of the bittersweet youth of two childhood friends.</p>
+            <h2>Kakao 79%</h2>
+            <div class="button">
+              <a href="#">Read New Chapter</a>
+            </div>
+          </div>
+          <div class="img-container">
+            <a href="#"><img src="./img/anime4.jpg"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="main">
+    <nav>
+      <ul class="main-nav">
+        <li><a href="#">ROMANCE</a></li>
+        <li><a href="#">COMEDY</a></li>
+        <li><a href="#">SHOUJO</a></li>
+        <li><a href="#">VAMPIRE</a></li>
+        <li><a href="#">HORROR</a></li>
+        <li><a href="#">SEINEN</a></li>
+        <li><a href="#">YOUKAI</a></li>
+        <li><a href="#">ADVENTURE</a></li>
+        <li><a href="#">HAREM</a></li>
+      </ul>
+    </nav>
+    <div class="mangas">
+      <div class="manga-category">
+        <h1>HOT MANGA</h1>
+        <div class="button2">
+          <a href="#">READ MORE</a>
+        </div>
+      </div>
+      <div class="manga-content">
+        <div class="jspContainer">
+          <ul class="jspPane manga-list">
+            <li>
+              <a href="#"><img src="/img/yunna.jpg"></a>
+              <a href="#">Yuragi-sou no Yuuna-san 63</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/shen.jpg"></a>
+              <a href="#">Shen Yin Wang Zuo 106</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/spirit.jpg"></a>
+              <a href="#">Spirit Blade Mountain 183</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/tower.jpg"></a>
+              <a href="#">Tower of God 331</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/skip.jpg"></a>
+              <a href="#">Skip Beat 248</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/wu.jpg"></a>
+              <a href="#">Wu Dong Qian Kun 53</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/nana.jpg"></a>
+              <a href="#">Nanatsu no Taizai 218</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/relife.jpg"></a>
+              <a href="#">ReLIFE 180</a>
+            </li>
+          </ul>
+          <div class="jspHorizontalBar">
+            <div class="jspTrack"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="mangas">
+      <div class="manga-category">
+        <h1>FEATURED MANGA</h1>
+        <div class="button2">
+          <a href="#">READ MORE</a>
+        </div>
+      </div>
+      <div class="manga-content">
+        <div class="jspContainer">
+          <ul class="jspPane manga-list">
+            <li>
+              <a href="#"><img src="/img/yunna.jpg"></a>
+              <a href="#">Yuragi-sou no Yuuna-san 63</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/shen.jpg"></a>
+              <a href="#">Shen Yin Wang Zuo 106</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/spirit.jpg"></a>
+              <a href="#">Spirit Blade Mountain 183</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/tower.jpg"></a>
+              <a href="#">Tower of God 331</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/skip.jpg"></a>
+              <a href="#">Skip Beat 248</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/wu.jpg"></a>
+              <a href="#">Wu Dong Qian Kun 53</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/nana.jpg"></a>
+              <a href="#">Nanatsu no Taizai 218</a>
+            </li>
+            <li>
+              <a href="#"><img src="/img/relife.jpg"></a>
+              <a href="#">ReLIFE 180</a>
+            </li>
+          </ul>
+          <div class="jspHorizontalBar">
+            <div class="jspTrack"></div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script src="js/main.js"></script>
+
 </html>
