@@ -1,11 +1,11 @@
 /* Global */
+
 body, ul, li, header, nav, footer {
   border: 0;
   padding: 0;
   margin: 0;
   font-family: Arial, sans-serif;
   font-size: 13px;
-  /*line-height: 150%;*/
 }
 
 a img {
@@ -17,15 +17,17 @@ ul li {
   list-style-type: none;
 }
 
+
 /* Header */
+
 .container {
   width: 100%;
   height: 50px;
   padding: 15px 0;
-  border-bottom: 1px solid rgba(0,0,0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
   position: absolute;
   z-index: 100;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .logo {
@@ -38,9 +40,6 @@ ul li {
 }
 
 .navbar {
-  /*position: absolute;
-  right: 20px;
-  top: 20px;*/
   float: right;
   margin: 5px 20px 0 0
 }
@@ -61,17 +60,17 @@ ul li {
 }
 
 .navbar li a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    border-bottom: 2px solid #fff;
-    transition: 0.4s;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #fff;
+  transition: 0.4s;
 }
 
 .navbar li a:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-fixed {
@@ -81,15 +80,15 @@ ul li {
 }
 
 .nav-fixed .logo {
-    background-position: 0 -82px;
+  background-position: 0 -82px;
 }
 
 .nav-fixed li a {
-    color: #000;
+  color: #000;
 }
 
 .nav-fixed li a::after {
-    border-bottom: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 .new {
@@ -109,22 +108,22 @@ ul li {
   margin-left: 5px;
 }
 
-/* Slider */
+
+/* Slideshow */
+
 .slideShow {
   width: 100%;
   height: 520px;
-  /*position: relative;*/
-  /*overflow: hidden;*/
 }
 
 .slideShow ul li {
-    float: left;
-    width: 100%;
-    height: 520px;
+  float: left;
+  width: 100%;
+  height: 520px;
 }
 
 .context {
-  margin: 150px 300px 0 0;
+  margin: 170px 300px 0 0;
   color: #fff;
   float: right;
   font-size: 30px;
@@ -135,7 +134,7 @@ ul li {
 }
 
 .image2 .context {
-  margin: 150px 200px 0 0;
+  margin: 170px 200px 0 0;
 }
 
 .img-container {
@@ -145,13 +144,13 @@ ul li {
 }
 
 .img-container2 {
-    position: absolute;
-    right: 0;
-    top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .context2 {
-  margin: 150px 100px 0 300px;
+  margin: 170px 100px 0 300px;
   color: #fff;
   float: left;
   font-size: 30px;
@@ -163,7 +162,7 @@ ul li {
 
 .image4 .context {
   float: right;
-  margin: 150px 100px 0 200px;
+  margin: 170px 100px 0 200px;
 }
 
 .button a {
@@ -174,11 +173,14 @@ ul li {
   border-radius: 2px;
   cursor: pointer;
   font-size: 24px;
+  position: relative;
+  top: 5px;
 }
 
 .button a:hover {
   font-weight: bold;
-  border: 3px dashed #fff;;
+  border: 3px dashed #fff;
+  ;
   padding: 15px 19px;
 }
 
@@ -198,27 +200,24 @@ ul li {
 }
 
 .image4 {
-   position: absolute;
-   background: #F89291;
- }
+  position: absolute;
+  background: #F89291;
+}
 
 .current {
   z-index: 10;
 }
 
+
 /* Main Content */
 
 .main {
   min-height: 1000px;
-  /*background: #293033;
-  border-right: 1px solid #202628;*/
 }
 
 .main-nav {
   text-align: center;
   background: #fff;
-  border-top: 1px solid rgba(0,0,0, .5);
-  border-bottom: 1px solid rgba(0,0,0, .5);
 }
 
 .main-nav li {
@@ -242,15 +241,15 @@ ul li {
 
 .mangas {
   width: 100%;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .button2 {
-    width: 200px;
-    margin: 15px auto 0;
-    text-align: center;
-    text-decoration: none;
-    border: 2px solid #fff;
+  width: 200px;
+  margin: 15px auto 0;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff;
 }
 
 .button2 a {
@@ -263,16 +262,18 @@ ul li {
 }
 
 .button2:hover {
-    font-weight: bold;
-    border: 3px dashed #fff;
+  font-weight: bold;
+  border: 3px dashed #fff;
 }
 
 .manga-category {
-  background-color: grey;
+  background: #293033;
+  border-right: 1px solid #202628;
   float: left;
   color: #fff;
   width: 20%;
   height: 425px;
+  box-sizing: border-box;
 }
 
 .manga-category h1 {
@@ -282,30 +283,31 @@ ul li {
   width: 200px;
 }
 
-.manga-list {
-  left: 0;
+.manga-content {
+  width: auto;
+  position: relative;
+  overflow: hidden;
 }
 
-.manga-content {
+.list-wrap {
   background: #2D3538;
   float: left;
   height: 425px;
-  width: 80%;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
 
 .manga-list li {
-    float: left;
-    margin-left: 58px;
-    /*display: inline;*/
-    width: 200px;
+  float: left;
+  margin-left: 58px;
+  width: 200px;
 }
 
 .manga-list li a {
   text-decoration: none;
   display: block;
-  /*position: relative;*/
+  position: relative;
   color: #000;
   text-align: center;
   background: #fff;
@@ -318,4 +320,61 @@ ul li {
   height: 340px;
   position: absolute;
   top: 35px;
+}
+
+
+/* Footer */
+
+footer {
+  height: 100px;
+  padding: 40px 60px;
+}
+
+.contain {
+  float: left;
+  position: absolute;
+  right: 30%;
+}
+
+.resources {
+  overflow: hidden;
+}
+
+.resources li {
+  float: left;
+  border: 1px solid #25292f;
+}
+
+.resources li a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  padding: 15px;
+}
+
+.resources li a:hover {
+  color: #fff;
+  background: #929292;
+  font-weight: bold;
+}
+
+.moreInfo {
+  margin: 20px 0 15px 125px;
+  overflow: hidden;
+}
+
+.moreInfo li {
+  float: left;
+  margin-right: 20px;
+}
+
+.moreInfo li a:hover {
+  color: #63B5FF;
+}
+
+.contain p {
+  clear: both;
+  line-height: 18px;
+  color: #999;
+  text-align: center;
 }

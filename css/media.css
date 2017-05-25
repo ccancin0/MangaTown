@@ -1,0 +1,87 @@
+@media only screen and (max-width:1570px) {
+  .slideShow {
+    height: 400px;
+  }
+
+  .slideShow ul li {
+    height: 400px;
+  }
+
+  .img-container a img {
+    height: 400px;
+  }
+
+  .img-container2 a img {
+    height: 400px;
+  }
+
+  .image1 .context {
+    margin: 130px 350px 0 0;
+    font-size: 25px;
+  }
+
+  .image2 .context {
+    margin: 130px 200px 0 0;
+    font-size: 25px;
+  }
+
+  .context2 {
+    margin: 130px 50px 0 300px;
+    font-size: 25px;
+  }
+
+  .image4 .context {
+    margin: 130px 150px 0 100px;
+    font-size: 25px;
+  }
+
+  .main-nav li {
+    margin: 0 40px;
+    height: 45px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (max-width:1370px) {
+  .slideShow {
+    height: 350px;
+  }
+
+  .slideShow ul li {
+    height: 350px;
+  }
+
+  .img-container a img {
+    height: 350px;
+  }
+
+  .img-container2 a img {
+    height: 350px;
+  }
+
+  .image1 .context {
+    margin: 120px 300px 0 0;
+    font-size: 20px;
+  }
+
+  .image2 .context {
+    margin: 120px 200px 0 0;
+    font-size: 20px;
+  }
+
+  .context2 {
+    margin: 120px 50px 0 300px;
+    font-size: 20px;
+  }
+
+  .image4 .context {
+    margin: 120px 150px 0 150px;
+    font-size: 20px;
+  }
+
+  .main-nav li {
+    margin: 0 35px;
+    height: 45px;
+    line-height: 45px;
+  }
+}

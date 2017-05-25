@@ -7,7 +7,7 @@ $(document).ready(function() {
     }
   });
 
-  $('.manga-content').jScrollPane();
+  $('.list-wrap').jScrollPane();
 
   var i = 1;
   setInterval(function() {
